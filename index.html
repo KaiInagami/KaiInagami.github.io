@@ -1,36 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>   
+<head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <script src="https://kit.fontawesome.com/0014ac2641.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    
+    <title>疫情不能出國又想玩怎麼辦?</title>
 </head>
 <body>
-    <p><strong>This</strong> is some content</p>
-    <h1>This is Heading h1</h1>
-    <h2>This is Heading h2</h2>
-    <h3>This is Heading h3</h3>
-    <!--This is comment-->
-    <font size="1">文字</font><br>
-    <font size="2">文字</font><br>
-    <font size="3">文字</font><br>
-
-    <!--以下是語意標籤nav-->
-    <nav class="menu">
-        <ul>
-            <li><a href="http://www.google.com">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+    <header>
+    <div class="container">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="pictures/logo2.png">   
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">首頁</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">最新消息</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                相關行程
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">全台好吃報</a></li>
+                <li><a class="dropdown-item" href="#">佛門清淨地</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">展場好物購</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">聯絡我們</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
     </nav>
+  </div>
+  </header>
+    <section id="intro">
+        <div class="container-fluid bg-light p-5">
+        <div class="container">
+        <div class="col-md-12">
+            <h1 class="display-4">台灣精選秘境</h1>
+            <p class="lead">黃金沒力號？景點人多好怕怕！</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">參加行程</a>
+        </div>
+        </div>
+    </div>
+    </section>
 
-    <h1>The Daily News</h1>
-    <article>
-        <h2>News 1</h2>
-        <!--article content-->
-    </article>
-    <article>
-        <h2>News 2</h2>
-        <!--article content-->
-    </article>
-</body>    
+    <!--介簡的區塊-->
+    <section id="second">
+        <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 text-center">
+                <h3>台灣精選秘境</h3>
+                <div class='row'>
+                  <div class='col-md-4 text-center'>
+                    <img src='pictures/head.png'>
+                    <h5>小編 KK</h5>
+                  </div>
+                  <div class='col-md-8 text-left'>
+                    <p class='lead'>誰說旅遊一定要找景點，秘境才是王道！</p>
+                    <p>深山、古洞、野嶺, 滿足你的挑戰慾妄！</p>
+                    <p>比如瑞芳十三層遺址、苗栗火炎山、台東鹿野神社、台南頂頭額沙洲、台東櫻木平交道，讓我們一同探險吧！</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--相片的區塊-->
+    <section id='latest'>       
+        <div class="container">
+        <div class='row'>
+        <div class='col-md-12 text-center'>
+            <h3>相關行程</h3>
+            <!--第一張相片-->
+          <div class='row'>
+            <div class='col-md-4 text-left'>
+                <div class='outer'>
+                  <a href='https://anrine910070.pixnet.net/blog/post/229047335-%E3%80%90%E6%96%B0%E5%8C%97%E7%91%9E%E8%8A%B3%E3%80%91%E6%B0%B4%E6%B9%B3%E6%B4%9E%E5%8D%81%E4%B8%89%E5%B1%A4%E9%81%BA%E5%9D%80%EF%BC%9A%E5%8F%B0%E7%89%88%E5%A4%A9%E7%A9%BA%E4%B9%8B'>
+                    <div class='upper'>
+                    <img src='pictures/one.jpg'>
+                    </div>
+                    <div class='lower'>
+                      <h3>探險行程 - 8月</h3>
+                      <span>可報名</span>
+                      <h4>費用：免費</h4>
+                      <span><i class="fas fa-map-marker-alt"></i>新北市瑞芳區</span><br>
+                      <span><i class="far fa-clock"></i> Aug 02, 2022 08:00PM</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            <!--第二張相片-->
+            <div class='col-md-4 text-left'>
+                <div class='outer'>
+                  <a href='https://travel.yam.com/article/126736'>
+                    <div class='upper'>
+                    <img src='pictures/two.jpg'>
+                    </div>
+                    <div class='lower'>
+                      <h3>探險行程 - 8月</h3>
+                      <span>可報名</span>
+                      <h4>費用：免費</h4>
+                      <span><i class="fas fa-map-marker-alt"></i>苗栗縣三義鄉</span><br>
+                      <span><i class="far fa-clock"></i> Aug 14, 2022 08:00PM</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            <!--第三張相片-->
+            <div class='col-md-4 text-left'>
+              <div class='outer'>
+                <a href='https://www.zztaitung.com/8337/luye_shrine'>
+                  <div class='upper'>
+                  <img src='pictures/three.jpg'>
+                  </div>
+                  <div class='lower'>
+                    <h3>探險行程 - 8月</h3>
+                    <span>可報名</span>
+                    <h4>費用：免費</h4>
+                    <span><i class="fas fa-map-marker-alt"></i>台東縣鹿野鄉</span><br>
+                    <span><i class="far fa-clock"></i> Aug 23, 2022 08:00PM</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+              </div>
+            </div>
+        <div>
+        </div>
+    </section>
+
+    <!--Email區塊-->
+    <section id='email'>
+        <div class="container">
+          <div class='row'>
+          <div class='col-md-8 offset-md-2 text-center'>
+            <h3>加入秘境探險團，我們將不定時發送最新秘境資訊</h3>
+          </div>
+          </div>
+          <div class='row'>
+          <div class='col-md-8 offset-md-2 text-left'>		
+          <p>讓我們有最新行程立刻通知你！</p>        		  	
+            <div class="input-group input-group-lg">
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Your Email Here!">
+          </div>
+          <a class="btn btn-primary btn-lg" href="#" role="button">提交</a>
+          </div>
+          </div>
+        </div>
+      </section>
+
+    <!--footer區塊-->
+    <footer>          
+        <div class="container">
+          <div class='row'>
+          <div class='col-md-4 text-left'>
+            <img src='pictures/logo2.png' width='85'>
+            <p>疫情不能出國又想玩怎麼辦? 該加入探險團啦！</p>
+          </div>
+          <div class='col-md-4 text-left'>
+            <h4>連結</h4>
+            <ul>
+                <li><a href='index.html'>主頁</a></li>
+                <li><a href='#'>相關行程</a></li>
+            </ul>
+            <ul>
+                <li><a href='#'>常見問題</a></li>
+                <li><a href='#'>聯絡我們</a></li>
+            </ul>             
+          </div>
+          <div class='col-md-4 text-left'>
+            <h4>聯絡我們</h4>
+            <p>台中市哪一區<br>
+             Phone: (04) 4567-1766<br>
+             E-Mail: <a href='mailto:gogo1766@gmail.com'>gogo1766@gmail.com</a>
+              </p>
+          </div>
+          </div>
+        </div>          
+      
+    </footer>
+</body>
 </html>
